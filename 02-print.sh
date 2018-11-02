@@ -53,3 +53,15 @@ echo -e "\e[43;31mRed on Yellow"
 # echo -e "<ENABLE-COLOR>TEXT<DISABLE-COLOR>"
 # TO disable color again you have to use escape sequence with color code 0.
 echo -e "\e[43;31mRed on Yellow\e[0m"
+
+
+### Sometimes we need data dynamically, By running some commands we generate output and if we need to store that output to a variable then we use command substutions for variables.
+
+echo "Good Morning , Today date is 2018-11-02"
+
+DATE=$(date +%F)
+echo "Good Morning , Today date is $DATE"
+
+## In the same manner we have artithematic substution to define the variable by running arithematic expression
+ADD=$((5*20/1-2))
+echo ADD = $ADD
