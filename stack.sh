@@ -24,6 +24,7 @@ Stat() {
         echo -e "\t -- ${G}SUCCESS${N}"
     else 
         echo -e "\t -- ${R}FAILURE${N}"
+    fi
 }
 
 Run() {
