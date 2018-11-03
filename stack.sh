@@ -17,7 +17,9 @@ Info() {
     echo -e -n "$1 "
 }
 
-Run() {}
+Run() {
+    
+}
 
 ## Check whether the script executed as root user or normal user.
 
