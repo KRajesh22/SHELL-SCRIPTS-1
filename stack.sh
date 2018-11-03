@@ -26,4 +26,4 @@ fi
 
 Info "Installing Web Server"
 yum install httpd -y &>>$LOG
-
+Stat 
