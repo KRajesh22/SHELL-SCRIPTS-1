@@ -30,9 +30,9 @@ Stat() {
 
 Run() {
     Info "$1"
-    HeadLog
+    LogS
     $2 &>>$LOG
-    
+
     Stat $?
 }
 
