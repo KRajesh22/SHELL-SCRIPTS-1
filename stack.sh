@@ -6,7 +6,7 @@ rm -f $LOG
 
 ## COlor Variables
 R="\e[31m"
-G=""
+G="\e["
 N="\e[0m"
 
 Error() {
