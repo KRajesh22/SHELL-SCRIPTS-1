@@ -44,7 +44,7 @@ LogS() {
 Run() {
     Info "$1"
     LogS Head "$2"
-    exec $2 &>>$LOG
+    $2 &>>$LOG
     Stat $?
     LogS Tail
 }
