@@ -13,7 +13,9 @@ Error() {
     exit $2
 }
 
-Info
+Info() {
+    echo -e -n 
+}
 
 ## Check whether the script executed as root user or normal user.
 
