@@ -19,7 +19,7 @@ Info() {
 
 Stat() {
     if [ $1 -eq 0 ]; then 
-        echo -e "\t -- ${G}SUCCESS"
+        echo -e "\t -- ${G}SUCCESS${N}"
 }
 
 Run() {
