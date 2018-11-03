@@ -19,6 +19,7 @@ Info() {
 
 Run() {
     Info "$1"
+    
 }
 
 ## Check whether the script executed as root user or normal user.
