@@ -8,7 +8,7 @@ rm -f $LOG
 
 ID=$(id -u)
 if [ "$ID" -ne 0 ]; then 
-    Error
+    Error ""
 
 echo -e "Installing Web Server"
 yum install httpd -y &>>$LOG
