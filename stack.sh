@@ -24,4 +24,4 @@ if [ "$ID" -ne 0 ]; then
     Error "You should be a root user to run this script!!" 2
 fi
 
-Run "Installing HTTPD Server"  
+Run "Installing HTTPD Server" "" 
