@@ -13,6 +13,8 @@ Error() {
     exit $2
 }
 
+Info
+
 ## Check whether the script executed as root user or normal user.
 
 ID=$(id -u)
