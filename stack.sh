@@ -59,4 +59,4 @@ fi
 Run "Installing HTTPD Server" "yum install httpd -y"  
 Run "Setting up Reverse proxy" "curl -f -s https://raw.githubusercontent.com/citb32/project-setup/master/web-proxy.conf -o  /etc/httpd/conf.d/studentapp.conf"
 Run "Setting Up Index File" "curl -f -s https://raw.githubusercontent.com/citb32/project-setup/master/httpd-index.html -o /var/www/html/index.html"
-Run "Start Web Service" "systemctl enable httpd && systemctl start httpd"
+Run "Start Web Service" "systemctl enable httpd && || systemctl start httpd"
