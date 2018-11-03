@@ -7,7 +7,7 @@ rm -f $LOG
 ## Check whether the script executed as root user or normal user.
 
 ID=$(id -u)
-if [ "" ]
+if [ "$ID" -eq 0 ]
 
 echo -e "Installing Web Server"
 yum install httpd -y &>>$LOG
