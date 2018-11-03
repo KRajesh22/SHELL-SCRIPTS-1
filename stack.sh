@@ -9,7 +9,7 @@ R="\e[33m"
 N="\e[0m"
 
 Error() {
-    echo -e "${R}$1${N}"
+    echo -e "${R}${1}${N}"
 }
 
 ## Check whether the script executed as root user or normal user.
