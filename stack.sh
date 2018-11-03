@@ -58,4 +58,4 @@ fi
 
 Run "Installing HTTPD Server" "yum install httpd -y"  
 Run "Setting up Reverse proxy" "curl -s https://raw.githubusercontent.com/citb32/project-setup/master/web-proxy.conf -o  /etc/httpd/conf.d/studentapp.conf"
-Run 
+Run "Setting Up Index File" "curl -s "
