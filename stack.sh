@@ -18,7 +18,8 @@ Info() {
 }
 
 Stat() {
-    if [ $1 -eq 0 ]
+    if [ $1 -eq 0 ]; then 
+        
 }
 
 Run() {
