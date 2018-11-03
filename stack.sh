@@ -8,7 +8,7 @@ rm -f $LOG
 
 ID=$(id -u)
 if [ "$ID" -ne 0 ]; then 
-    Error ""
+    Error "You should be a root user to run this script!!"
 
 echo -e "Installing Web Server"
 yum install httpd -y &>>$LOG
