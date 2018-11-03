@@ -32,6 +32,7 @@ Run() {
     Info "$1"
     HeadLog
     $2 &>>$LOG
+    
     Stat $?
 }
 
