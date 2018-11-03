@@ -57,4 +57,4 @@ if [ "$ID" -ne 0 ]; then
 fi
 
 Run "Installing HTTPD Server" "yum install httpd -y"  
-Run "Setting up Reverse proxy" "wget "
+Run "Setting up Reverse proxy" "cur "
