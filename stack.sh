@@ -20,7 +20,7 @@ if [ "$ID" -ne 0 ]; then
     Error "You should be a root user to run this script!!" 2
 fi
 
- "Installing Web Server"
+Info "Installing Web Server"
 yum install httpd -y &>>$LOG
 if [ $? -eq 0 ]; then
     echo "SUCCESS"
