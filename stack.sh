@@ -18,7 +18,7 @@ Info() {
 }
 
 Run() {
-    
+    echo 
 }
 
 ## Check whether the script executed as root user or normal user.
