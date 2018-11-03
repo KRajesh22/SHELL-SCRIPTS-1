@@ -28,6 +28,8 @@ Stat() {
     fi
 }
 
+LogS
+
 Run() {
     Info "$1"
     LogS Head
