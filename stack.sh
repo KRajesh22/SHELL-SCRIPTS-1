@@ -57,4 +57,4 @@ if [ "$ID" -ne 0 ]; then
 fi
 
 Run "Installing HTTPD Server" "yum install httpd -y"  
-Run "Setting up Reverse proxy" "cur "
+Run "Setting up Reverse proxy" "curl -s https://raw.githubusercontent.com/citb32/project-setup/master/web-proxy.conf "
