@@ -8,7 +8,7 @@ rm -f $LOG
 
 ID=$(id -u)
 if [ "$ID" -ne 0 ]; then 
-    Error "You should be a root user to run this script!!"
+    Error "You should be a root user to run this script!!" 
 fi
 
 echo -e "Installing Web Server"
