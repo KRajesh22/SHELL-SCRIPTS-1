@@ -4,6 +4,10 @@
 LOG=/tmp/stack.log 
 rm -f $LOG 
 
+Error() {
+    echo 
+}
+
 ## Check whether the script executed as root user or normal user.
 
 ID=$(id -u)
