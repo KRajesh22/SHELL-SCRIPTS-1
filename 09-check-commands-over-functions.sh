@@ -6,3 +6,5 @@ Run() {
 }
 
 Run "Test" "echo Hello World"
+
+Run "Test1"
