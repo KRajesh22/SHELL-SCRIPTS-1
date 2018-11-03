@@ -1,5 +1,6 @@
 #!/bin/bash 
 
 Run() {
-    echo ""
+    echo "$1"
+    
 }
