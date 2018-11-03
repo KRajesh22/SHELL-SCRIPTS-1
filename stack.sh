@@ -5,7 +5,7 @@ LOG=/tmp/stack.log
 rm -f $LOG 
 
 Error() {
-    echo 
+    echo
 }
 
 ## Check whether the script executed as root user or normal user.
