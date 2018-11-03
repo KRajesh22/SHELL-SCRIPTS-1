@@ -5,7 +5,7 @@ LOG=/tmp/stack.log
 rm -f $LOG 
 
 ## COlor Variables
-R="\e[31m"
+R="\e[1;31m"
 G="\e[1;32m"
 Y="\e[1;33m"
 N="\e[0m"
