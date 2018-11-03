@@ -4,6 +4,10 @@
 LOG=/tmp/stack.log 
 rm -f $LOG 
 
+## Check whether the script executed as root user or normal user.
+
+
+
 echo -e "Installing Web Server"
 yum install httpd -y &>>$LOG
 if [ $? -eq 0 ]; then
