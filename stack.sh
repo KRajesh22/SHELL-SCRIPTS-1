@@ -29,7 +29,7 @@ Stat() {
 }
 
 LogS() {
-    echo 
+    echo -e ""
 }
 
 Run() {
