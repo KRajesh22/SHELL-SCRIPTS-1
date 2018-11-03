@@ -26,8 +26,4 @@ fi
 
 Info "Installing Web Server"
 yum install httpd -y &>>$LOG
-if [ $? -eq 0 ]; then
-    echo "SUCCESS"
-else
-    echo "FAILURE"
-fi
+
