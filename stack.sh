@@ -17,6 +17,8 @@ Info() {
     echo -e -n "$1 "
 }
 
+Styat
+
 Run() {
     Info "$1"
     $2
