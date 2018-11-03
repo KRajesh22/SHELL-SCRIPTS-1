@@ -23,7 +23,7 @@ Stat() {
     if [ $1 -eq 0 ]; then 
         echo -e "-- ${G}SUCCESS${N}"
     else 
-        echo -e " -- ${R}FAILURE${N}"
+        echo -e "-- ${R}FAILURE${N}"
         exit 1
     fi
 }
