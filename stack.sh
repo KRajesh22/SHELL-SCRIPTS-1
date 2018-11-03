@@ -32,7 +32,7 @@ Run() {
     Info "$1"
     LogS Head
     $2 &>>$LOG
-
+    LogS Tail
     Stat $?
 }
 
