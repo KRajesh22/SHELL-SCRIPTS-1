@@ -57,3 +57,4 @@ if [ "$ID" -ne 0 ]; then
 fi
 
 Run "Installing HTTPD Server" "yum install httpd -y"  
+Inf
