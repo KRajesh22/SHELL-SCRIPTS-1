@@ -8,7 +8,7 @@ rm -f $LOG
 R="\e[33m"
 
 Error() {
-    echo -e "${R}"
+    echo -e "${R}$1"
 }
 
 ## Check whether the script executed as root user or normal user.
