@@ -19,7 +19,7 @@ Info() {
 
 Stat() {
     if [ $1 -eq 0 ]; then 
-        echo -e ""
+        echo -e "\e"
 }
 
 Run() {
