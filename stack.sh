@@ -28,7 +28,7 @@ Stat() {
     fi
 }
 
-LogS
+LogS 
 
 Run() {
     Info "$1"
