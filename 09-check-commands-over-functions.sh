@@ -5,4 +5,4 @@ Run() {
     $2
 }
 
-Run "Test"
+Run "Test" "echo Hello World"
