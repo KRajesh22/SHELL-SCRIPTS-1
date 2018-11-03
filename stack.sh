@@ -4,6 +4,7 @@
 LOG=/tmp/stack.log 
 rm -f $LOG 
 
+## COlor Variables
 
 
 Error() {
