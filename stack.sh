@@ -5,7 +5,7 @@ LOG=/tmp/stack.log
 rm -f $LOG 
 
 ## COlor Variables
-
+R=
 
 Error() {
     echo -e ""
