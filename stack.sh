@@ -6,6 +6,7 @@ rm -f $LOG
 
 ## COlor Variables
 R="\e[33m"
+N="\'e'"
 
 Error() {
     echo -e "${R}$1${N}"
