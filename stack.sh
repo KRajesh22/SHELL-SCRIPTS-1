@@ -120,4 +120,4 @@ systemctl daemon-reload &>>$LOG
 Stat $?
 LogS Tail
 
-Run "Start Tomcat Service" "systemctl start httpd"
+Run "Start Tomcat Service" "systemctl start tomcat"
