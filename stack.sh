@@ -69,4 +69,4 @@ systemctl enable httpd &>/dev/null
 Run "Start Web Service" "systemctl start httpd"
 
 Head "APPLICATION SETUP"
-Run "Installing Java" "yum install httpd -y"  
+Run "Installing Java" "yum install java -y"  
