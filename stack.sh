@@ -15,6 +15,7 @@ TOMCAT_USER=studentapp
 TOMCAT_VERSION="9.0.12"
 TOMCAT_URL="https://archive.apache.org/dist/tomcat/tomcat-9/v$TOMCAT_VERSION/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz"
 APP_URL='https://github.com/citb32/project-setup/raw/master/student.war'
+TOMCAT
 
 
 Error() {
