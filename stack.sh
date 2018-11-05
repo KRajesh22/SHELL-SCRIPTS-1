@@ -12,7 +12,7 @@ N="\e[0m"
 
 ## 
 TOMCAT_VERSION=""
-TOMCAT_URL=""
+TOMCAT_URL="https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.12/bin/apache-tomcat-9.0.12.tar.gz"
 
 Error() {
     echo -e "${R}${1}${N}"
