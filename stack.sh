@@ -105,3 +105,9 @@ su - $TOMCAT_USER -c "wget $APP_URL -O $TOMCAT_DIR/webapps/student.war" &>>$LOG
 Stat $?
 LogS Tail
 
+Info "Downloading Student Application"
+LogS Head "$2" 
+su - $TOMCAT_USER -c "rm -rf  $TOMCAT_DIR/webapps/*" &>>$LOG
+su - $TOMCAT_USER -c "wget $APP_URL -O $TOMCAT_DIR/webapps/student.war" &>>$LOG
+Stat $?
+LogS Tail
