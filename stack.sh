@@ -11,7 +11,7 @@ Y="\e[1;33m"
 N="\e[0m"
 
 ## 
-TOMCAT_VERSION=""
+TOMCAT_VERSION="90.0.12"
 TOMCAT_URL="https://archive.apache.org/dist/tomcat/tomcat-9/v$TOMCAT_VERSION/bin/apache-tomcat-9.0.12.tar.gz"
 
 Error() {
