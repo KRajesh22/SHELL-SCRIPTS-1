@@ -98,6 +98,6 @@ Stat $?
 LogS Tail
 Info "Downloading Student Application"
 LogS Head "$2" 
-su - $TOMCAT_USER -c "wget $APP_URL " &>>$LOG
+su - $TOMCAT_USER -c "wget $APP_URL -O " &>>$LOG
 Stat $?
 LogS Tail
