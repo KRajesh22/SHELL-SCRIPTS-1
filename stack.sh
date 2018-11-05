@@ -77,4 +77,5 @@ Run "Start Web Service" "systemctl start httpd"
 Head "APPLICATION SETUP"
 Run "Installing Java" "yum install java -y"  
 Run "Creating Application User" "useradd $TOMCAT_USER"
-Run "Downloading Tomcat" "su - $TOMCAT_USER -c 'wget -O- $TOMCAT_URL | tar -xz'
+
+su - $TOMCAT_USER -c 'wget -O- $TOMCAT_URL | tar -xz'
