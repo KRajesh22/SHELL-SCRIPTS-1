@@ -107,7 +107,7 @@ LogS Tail
 
 Info "Configurring Tomcat"
 LogS Head "$2" 
-sed -i -e "$ i $CONTEXT" &>>$LOG
+sed -i -e "$ i $CONTEXT"  &>>$LOG
 su - $TOMCAT_USER -c "wget $APP_URL -O $TOMCAT_DIR/webapps/student.war" &>>$LOG
 Stat $?
 LogS Tail
