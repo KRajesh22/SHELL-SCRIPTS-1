@@ -62,7 +62,8 @@ Head() {
 Skip() {
     Info "$1"
     LogS Head "$2"
-    
+    Stat $?
+    LogS Tail
 }
 ## Check whether the script executed as root user or normal user.
 
