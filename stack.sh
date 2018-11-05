@@ -16,7 +16,7 @@ TOMCAT_VERSION="9.0.12"
 TOMCAT_URL="https://archive.apache.org/dist/tomcat/tomcat-9/v$TOMCAT_VERSION/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz"
 APP_URL='https://github.com/citb32/project-setup/raw/master/student.war'
 TOMCAT_DIR="/home/$TOMCAT_USER/apache-tomcat-${TOMCAT_VERSION}"
-CONTEXT="<Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource" maxTotal="100" maxIdle="30" maxWaitMillis="10000" username="student" password="student1" driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://:3306/studentapp"/>"
+CONTEXT="<Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource" maxTotal="100" maxIdle="30" maxWaitMillis="10000" username="student" password="student1" driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://:3306/studentapp"/>''
 
 
 Error() {
