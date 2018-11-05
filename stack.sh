@@ -27,7 +27,7 @@ Info() {
 
 Stat() {
     if [ "$1"  = SKIP ]; then 
-        echo e-4 "-- ${M}SKIPPING${N}"
+        echo -e "-- ${Y}SKIPPING${N}"
     elif [ $1 -eq 0 ]; then 
         echo -e "-- ${G}SUCCESS${N}"
     else 
