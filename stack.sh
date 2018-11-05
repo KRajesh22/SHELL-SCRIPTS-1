@@ -69,3 +69,4 @@ systemctl enable httpd &>/dev/null
 Run "Start Web Service" "systemctl start httpd"
 
 Head "APPLICATION SETUP"
+Run "Installing HTTPD Server" "yum install httpd -y"  
