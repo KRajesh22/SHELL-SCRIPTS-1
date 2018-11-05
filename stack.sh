@@ -96,3 +96,4 @@ LogS Head "$2"
 su - $TOMCAT_USER -c "wget -O- $TOMCAT_URL | tar -xz" &>>$LOG
 Stat $?
 LogS Tail
+
