@@ -76,5 +76,5 @@ Run "Start Web Service" "systemctl start httpd"
 
 Head "APPLICATION SETUP"
 Run "Installing Java" "yum install java -y"  
-Run "Creating Application User" "useradd studenta$pp"
+Run "Creating Application User" "useradd $TOMCAT_USER"
 Run "Downloading Tomcat" "su - studentapp "
