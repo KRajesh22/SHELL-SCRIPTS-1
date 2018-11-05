@@ -67,3 +67,5 @@ Run "Setting up Reverse proxy" "curl -f -s https://raw.githubusercontent.com/cit
 Run "Setting Up Index File" "curl -f -s https://raw.githubusercontent.com/citb32/project-setup/master/httpd-index.html -o /var/www/html/index.html"
 systemctl enable httpd &>/dev/null
 Run "Start Web Service" "systemctl start httpd"
+
+Head "APPLICATION SETUP"
