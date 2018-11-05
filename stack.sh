@@ -107,7 +107,7 @@ LogS Tail
 
 Info "Downloading JDBC Jar"
 LogS Head "$2" 
-su - $TOMCAT_USER -c "wget $APP_URL -O $TOMCAT_DIR/webapps/student.war" &>>$LOG
+su - $TOMCAT_USER -c "wget $JDBC_URL -O $TOMCAT_DIR/webapps/student.war" &>>$LOG
 Stat $?
 LogS Tail
 
