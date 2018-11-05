@@ -27,7 +27,7 @@ Info() {
 
 Stat() {
     
-    if [ $1 -eq 0 ]; then 
+    elif [ $1 -eq 0 ]; then 
         echo -e "-- ${G}SUCCESS${N}"
     else 
         echo -e "-- ${R}FAILURE${N}"
