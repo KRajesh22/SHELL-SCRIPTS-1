@@ -50,7 +50,7 @@ Run() {
 }
 
 Head() {
-    echo -e "\t\e[1;4;36m$1$N"
+    echo -e "\n\t\e[1;4;36m$1$N"
 }
 
 ## Check whether the script executed as root user or normal user.
