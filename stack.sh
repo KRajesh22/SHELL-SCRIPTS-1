@@ -115,6 +115,6 @@ LogS Tail
 Info "Configurring Tomcat"
 LogS Head "$2" 
 sed -i -e "/TestDB/ d" -e "$ i $CONTEXT" $TOMCAT_DIR/conf/context.xml &>>$LOG
-wget https://raw.githubusercontent.com/citb32/project-setup/master/tomcat-init -O /etc/init.d/tomcat
+wget https://raw.githubusercontent.com/citb32/project-setup/master/tomcat-init -O /etc/init.d/tomcat &>>$LOG
 Stat $?
 LogS Tail
