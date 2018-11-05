@@ -121,4 +121,5 @@ systemctl daemon-reload &>>$LOG
 Stat $?
 LogS Tail
 
+systemctl enable httpd &>/dev/null
 Run "Start Tomcat Service" "systemctl start tomcat"
