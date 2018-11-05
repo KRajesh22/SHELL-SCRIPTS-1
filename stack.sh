@@ -11,7 +11,7 @@ Y="\e[1;33m"
 N="\e[0m"
 
 ## 
-TOMCAT_URL=
+TOMCAT_URL=""
 
 Error() {
     echo -e "${R}${1}${N}"
