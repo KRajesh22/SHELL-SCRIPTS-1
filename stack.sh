@@ -49,6 +49,10 @@ Run() {
     LogS Tail
 }
 
+Head() {
+    echo -e "\t\e[1;4;36m$2$N"
+}
+
 ## Check whether the script executed as root user or normal user.
 
 ID=$(id -u)
@@ -56,6 +60,8 @@ if [ "$ID" -ne 0 ]; then
     Error "You should be a root user to run this script!!" 2
 fi
 
+
+Head "WEBSERVER SETUP"
 Run "Installing HTTPD Server" "yum install httpd -y"  
 Run "Setting up Reverse proxy" "curl -f -s https://raw.githubusercontent.com/citb32/project-setup/master/web-proxy.conf -o  /etc/httpd/conf.d/studentapp.conf"
 Run "Setting Up Index File" "curl -f -s https://raw.githubusercontent.com/citb32/project-setup/master/httpd-index.html -o /var/www/html/index.html"
