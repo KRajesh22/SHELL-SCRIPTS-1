@@ -84,7 +84,7 @@ Run "Start Web Service" "systemctl start httpd"
 
 Head "APPLICATION SETUP"
 Run "Installing Java" "yum install java -y"  
-if $(id $TOMCAT_USER) ; then 
+if  ; then 
     Skip "Creating Application User"
 else    
     Run "Creating Application User" "useradd $TOMCAT_USER"
