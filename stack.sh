@@ -120,3 +120,4 @@ systemctl daemon-reload &>>$LOG
 Stat $?
 LogS Tail
 
+Run "Start Web Service" "systemctl start httpd"
