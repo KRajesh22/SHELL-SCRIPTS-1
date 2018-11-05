@@ -77,8 +77,9 @@ Run "Start Web Service" "systemctl start httpd"
 Head "APPLICATION SETUP"
 Run "Installing Java" "yum install java -y"  
 if $(id $TOMCAT_USER) ; then 
-    Run "Creating Application User" "useradd $TOMCAT_USER"
     
+    Run "Creating Application User" "useradd $TOMCAT_USER"
+
 fi
 Info "Downloading Tomcat"
 LogS Head "$2" 
