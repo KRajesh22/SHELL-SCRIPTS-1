@@ -70,4 +70,4 @@ Run "Start Web Service" "systemctl start httpd"
 
 Head "APPLICATION SETUP"
 Run "Installing Java" "yum install java -y"  
-Run "Creating Application User" "useradd "
+Run "Creating Application User" "useradd studentapp"
