@@ -116,6 +116,7 @@ Info "Configurring Tomcat"
 LogS Head "$2" 
 sed -i -e "/TestDB/ d" -e "$ i $CONTEXT" $TOMCAT_DIR/conf/context.xml &>>$LOG
 wget https://raw.githubusercontent.com/citb32/project-setup/master/tomcat-init -O /etc/init.d/tomcat &>>$LOG
+chmod ugo+x /etc/init.d/tomcat
 systemctl daemon-reload &>>$LOG
 Stat $?
 LogS Tail
