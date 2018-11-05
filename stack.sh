@@ -26,7 +26,7 @@ Info() {
 }
 
 Stat() {
-    if 
+    if [ "$1"  = SKI{P} ]
     elif [ $1 -eq 0 ]; then 
         echo -e "-- ${G}SUCCESS${N}"
     else 
